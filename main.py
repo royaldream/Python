@@ -1,4 +1,4 @@
-import pandas
+# import pandas
 print("Parth Roy")
 #If condition true then print 1
 
