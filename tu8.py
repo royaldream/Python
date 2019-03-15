@@ -9,7 +9,7 @@ i = 0
 #     print i
 #     i = i + 1
 while True:
-    num=input()
+    num = int(input())
     if num < 100:
         print num
         break
@@ -18,4 +18,3 @@ while True:
         break
     else:
         continue
-
