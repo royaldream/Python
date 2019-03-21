@@ -47,7 +47,9 @@ mycursor = mydb.cursor()
 # Crete Table
 # mycursor.execute("Create Table Student (name Text,enrollment Text)")
 def getData():
+    print "Enter Name of Student : "
     a = raw_input()
+    print "Enter Enrollment of student : "
     b = raw_input()
     return a, b
 
@@ -61,6 +63,7 @@ def insertData(name, enrollment):
 
 
 def choice():
+    print 'Enter Your Choice(0 : Exit) :-'
     return int(input())
 
 
@@ -77,4 +80,5 @@ def showData():
     for x in myresult:
         print x[0], x[1]
 
+insertChoice()
 showData()

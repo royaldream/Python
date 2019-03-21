@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24209e91-6a3c-4687-84c2-5a3ec6882532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tu10_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tu11_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tu12_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tu13_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tu14_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tu9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numpy_demo/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu8.py" beforeDir="false" afterPath="$PROJECT_DIR$/tu8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tu14_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/tu14_mysql.py" afterDir="false" />
     </list>
     <list id="988b4e5e-dc9d-4207-8407-e49a46a5cf48" name="tu7-8 calculator" comment="" />
     <ignored path="A:\Python\Python\.idea\shelf/" />
@@ -26,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tu14_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state relative-caret-position="520">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -96,6 +89,11 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,25 +313,32 @@
       <option name="project" value="LOCAL" />
       <updated>1552662085582</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tu9-14">
+      <created>1552674956722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552674956723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49925596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49925596" weight="0.3279483" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" weight="0.3279483" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -397,7 +402,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="tu5-6-7" />
     <MESSAGE value="tu7-8 calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="tu7-8 calculator" />
+    <MESSAGE value="tu9-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="tu9-14" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
@@ -513,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tu14_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="520">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
