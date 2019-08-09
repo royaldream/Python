@@ -3,9 +3,9 @@ print("Parth Roy")
 #If condition true then print 1
 
 if 11==10:
-    print 1
+    print(1)
 else:
-    print 0
+    print(0)
 """
 multi line comment
 """
