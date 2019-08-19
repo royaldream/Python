@@ -1,4 +1,5 @@
 def gcdNo(no1, no2):
+    global gcd
     i = 1
     while i <= no2 and i <= no1:
         if no2 % i == 0 and no1 % i == 0:

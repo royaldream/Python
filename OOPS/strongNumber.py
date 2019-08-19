@@ -3,7 +3,6 @@ import math as M
 
 def strongornot(no):
     ono = no
-    flag = False
     sum, fsum, i = 0, 0, 0
     while no > 0:
         n = no % 10
