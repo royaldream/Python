@@ -7,5 +7,5 @@ quali = raw_input("qualification :-")
 # print
 year = raw_input("study year :-")
 
-student = {"Name": name, "Age": age,"Education" :{"Qualification": quali,"Year": year}}
+student = {"Name": name, "Age": age, "Education": {"Qualification": quali, "Year": year}}
 print student

@@ -1,5 +1,4 @@
 class Student1:
-
     def __init__(self):
         self.name = ""
         self.enrollment = 0
@@ -31,26 +30,33 @@ class Student1:
 
 student1 = Student1()
 student1.name = "Parth Roy"
-print student1.name
+print(student1.name)
 
 
-del student1
-# Inheritance
-class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+# del student1
+# # Inheritance
+# class Person:
+#   def __init__(self, fname, lname):
+#     self.firstname = fname
+#     self.lastname = lname
 
-  def printname(self):
-    print(self.firstname, self.lastname)
+#   def printname(self):
+#     print(self.firstname, self.lastname)
 
-class Student(Person):
-  def __init__(self, fname, lname, year):
-    Person.__init__(self, fname, lname)
-    self.graduationyear = year
+# class Student(Person):
+#   def __init__(self, fname, lname, year):
+#     Person.__init__(self, fname, lname)
+#     self.graduationyear = year
 
-  def welcome(self):
-    print "Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear
+#   def welcome(self):
+#     print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
 
-x = Student("Mike", "Olsen", 2019)
-x.welcome()
+# x = Student("Mike", "Olsen", 2019)
+# x.welcome()
+
+
+# a = 10
+# b = 20
+# a, b = b, a
+# print a
+# print b

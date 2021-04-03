@@ -2,15 +2,16 @@
 print("Parth Roy")
 #If condition true then print 1
 
-if 11==10:
+if  11==10:
     print 1
 else:
     print 0
+    print 1
 """
 multi line comment
 """
 
-print "Parth Roy", "Royal Dreams"# comma will give the space
+print("Parth Roy", "Royal Dreams")# comma will give the space
 print("c:\\narayan")#C drive file print
 print("c:\"narayan")
 print("Parth\tRoy")#print end="" ending string given
@@ -30,13 +31,15 @@ print 10*str(int(a)+int(b))
 # num=input()
 mystr="Parth Roy is Good Boy"
 print(len(mystr))
+x=mystr[1:]
+print(x)
 print(mystr[0:])
 print(mystr[0:19:200])
 print(mystr[-10:])
 print(mystr[-5:-2])
-
+x=mystr.lower()
 print(mystr.find("o"))
-print mystr.lower()
+print(x)
 print mystr.upper()
 print mystr.capitalize()
 print mystr.endswith("Boy")
