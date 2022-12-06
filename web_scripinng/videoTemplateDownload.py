@@ -83,69 +83,11 @@ async def callVideoList(videosList):
 
 async def main():
 
-    videosList = [{
-        "title": "269_happy_birthday_to_you",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/269_happy_birthday_to_you.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/269_happy_birthday_to_you.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/269_happy_birthday_to_you.zip",
-        "category": "Birthday"
-        },{
-        "title": "324_happy_birth_day_10",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/324_happy_birth_day_10.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/324_happy_birth_day_10.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/324_happy_birth_day_10.zip",
-        "category": "Birthday"
-        },{
-        "title": "40_tv",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1554966402_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1554966400_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/40_tv.zip",
-        "category": "Birthday"
-        },{
-        "title": "206_birthday",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1576231858_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1576231789_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/206_birthday.zip",
-        "category": "Birthday"
-        },{
-        "title": "50_birthday_v5",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1571294246_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1571294245_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/50_birthday_v5.zip",
-        "category": "Birthday"
-        },{
-        "title": "123_happy_birthday_to_you",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1601022513_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1601022522_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/123_happy_birthday_to_you.zip",
-        "category": "Birthday"
-        },{
-        "title": "110_birthday_special",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1599302182_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1599302187_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/110_birthday_special.zip",
-        "category": "Birthday"
-        },{
-        "title": "261_happy_birthday_v3",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1581685573_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1581687698_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/261_happy_birthday_v3.zip",
-        "category": "Birthday"
-        },{
-        "title": "262_birthday_diary",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1581768328_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1581768325_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/262_birthday_diary.zip",
-        "category": "Birthday"
-        },{
-        "title": "206_birthday",
-        "video_thumb": "http://flickapp9.com/Infiapp/AdminPanelV4/video1thumb/1576231858_thumbnail.jpg",
-        "video_link": "http://flickapp9.com/Infiapp/AdminPanelV4/video1data/1576231789_output.mp4",
-        "video_zip": "http://flickapp9.com/Infiapp/AdminPanelV4/video1zip/206_birthday.zip",
-        "category": "Birthday"
-        }]
+    videosList = []
     # await callVideoList(videosList)
     try:
+        with open('test.json') as f:
+            videosList = json.load(f)
         await callVideoList(videosList)
     except Exception as e:
         print(e)
